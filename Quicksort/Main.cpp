@@ -21,6 +21,7 @@ int main() {
 	return 0;
 }
 
+
 void quicksort(int *arr, int low, int high)
 {
 	if (low < high)
@@ -88,6 +89,7 @@ int partition(int *arr, int low, int high)
 	return j;
 }*/
 
+// Traverse the array and print the contents. 
 void print(int *arr)
 {
 	for (int i = 0; i < 10; ++i)
